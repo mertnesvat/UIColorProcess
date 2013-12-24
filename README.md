@@ -23,6 +23,7 @@
 >![snipshot](http://s24.postimg.org/jh9pmtmc5/Screen_Shot_2013_12_24_at_1_04_59_PM.png "Color Samples")
 
 >each line sample is one method
+
 ###+(CGFloat)findDistanceBetweenTwoColor:(UIColor *)first secondColor:(UIColor *)second;
 >Compares two different color and returns distance between two of them
 <br>for example <br><code>NSLog(@"distance = %f",[UIColorProcess findDistanceBetweenTwoColor:[UIColor redColor] secondColor:[UIColor blueColor]]); </code><br>returns <code>distance = 1.414214</code>
