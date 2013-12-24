@@ -21,8 +21,7 @@
 		D72B29031868F21F00E6DEC1 /* UIColorProcessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B29021868F21F00E6DEC1 /* UIColorProcessTests.m */; };
 		D72B290D1868F24300E6DEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72B290C1868F24300E6DEC1 /* Main.storyboard */; };
 		D72B29101868F2B400E6DEC1 /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B290F1868F2B400E6DEC1 /* BoardViewController.m */; };
-		D72B29131868F6D300E6DEC1 /* UIColorProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = D72B29121868F6D300E6DEC1 /* UIColorProcess.m */; };
-		D743CDF918699D6F006A8AB7 /* BoardViewController in Resources */ = {isa = PBXBuildFile; fileRef = D743CDF818699D6F006A8AB7 /* BoardViewController */; };
+		D743CDFD18699F99006A8AB7 /* UIColorProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = D743CDFC18699F99006A8AB7 /* UIColorProcess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +54,8 @@
 		D72B290C1868F24300E6DEC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		D72B290E1868F2B400E6DEC1 /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
 		D72B290F1868F2B400E6DEC1 /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
-		D72B29111868F6D300E6DEC1 /* UIColorProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorProcess.h; sourceTree = "<group>"; };
-		D72B29121868F6D300E6DEC1 /* UIColorProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorProcess.m; sourceTree = "<group>"; };
-		D743CDF818699D6F006A8AB7 /* BoardViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BoardViewController; path = ../../../Desktop/BoardViewController; sourceTree = "<group>"; };
+		D743CDFB18699F99006A8AB7 /* UIColorProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorProcess.h; sourceTree = "<group>"; };
+		D743CDFC18699F99006A8AB7 /* UIColorProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorProcess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +85,7 @@
 		D72B28D11868F21F00E6DEC1 = {
 			isa = PBXGroup;
 			children = (
+				D743CDFA18699F99006A8AB7 /* ColorProcess */,
 				D72B28E31868F21F00E6DEC1 /* UIColorProcess */,
 				D72B28FC1868F21F00E6DEC1 /* UIColorProcessTests */,
 				D72B28DC1868F21F00E6DEC1 /* Frameworks */,
@@ -122,8 +121,6 @@
 				D72B290C1868F24300E6DEC1 /* Main.storyboard */,
 				D72B290E1868F2B400E6DEC1 /* BoardViewController.h */,
 				D72B290F1868F2B400E6DEC1 /* BoardViewController.m */,
-				D743CDF818699D6F006A8AB7 /* BoardViewController */,
-				D72B29141868F6DC00E6DEC1 /* ColorProcess */,
 				D72B28EF1868F21F00E6DEC1 /* Images.xcassets */,
 				D72B28E41868F21F00E6DEC1 /* Supporting Files */,
 			);
@@ -159,13 +156,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D72B29141868F6DC00E6DEC1 /* ColorProcess */ = {
+		D743CDFA18699F99006A8AB7 /* ColorProcess */ = {
 			isa = PBXGroup;
 			children = (
-				D72B29111868F6D300E6DEC1 /* UIColorProcess.h */,
-				D72B29121868F6D300E6DEC1 /* UIColorProcess.m */,
+				D743CDFB18699F99006A8AB7 /* UIColorProcess.h */,
+				D743CDFC18699F99006A8AB7 /* UIColorProcess.m */,
 			);
-			name = ColorProcess;
+			path = ColorProcess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +242,6 @@
 			files = (
 				D72B28E81868F21F00E6DEC1 /* InfoPlist.strings in Resources */,
 				D72B28F01868F21F00E6DEC1 /* Images.xcassets in Resources */,
-				D743CDF918699D6F006A8AB7 /* BoardViewController in Resources */,
 				D72B290D1868F24300E6DEC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +264,7 @@
 				D72B29101868F2B400E6DEC1 /* BoardViewController.m in Sources */,
 				D72B28EE1868F21F00E6DEC1 /* AppDelegate.m in Sources */,
 				D72B28EA1868F21F00E6DEC1 /* main.m in Sources */,
-				D72B29131868F6D300E6DEC1 /* UIColorProcess.m in Sources */,
+				D743CDFD18699F99006A8AB7 /* UIColorProcess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
