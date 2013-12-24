@@ -15,8 +15,9 @@
 >+(UIColor *)getRandomColorFromColor:(UIColor *)lastColor coordinatesDifference:(int)distance;
 
 >+(UIColor *)getRandomColor;
-===============
-* * *
+
+* * * 
+
 >##Methods
 
 >![snipshot](http://s24.postimg.org/jh9pmtmc5/Screen_Shot_2013_12_24_at_1_04_59_PM.png "Color Samples")
