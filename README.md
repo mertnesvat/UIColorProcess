@@ -5,7 +5,7 @@
 
 ###ColorProcess class inherited from UIColor class and added some features like find difference from two different color
 
-<code>
+
 >+(CGFloat)findDistanceBetweenTwoColor:(UIColor *)first secondColor:(UIColor *)second;
 
 >+(UIColor *)getSimilarColorFromColor:(UIColor *)sample coordinatesIndicator:(int)indicatorC;
@@ -15,7 +15,6 @@
 >+(UIColor *)getRandomColorFromColor:(UIColor *)lastColor coordinatesDifference:(int)distance;
 
 >+(UIColor *)getRandomColor;
-</code>
 ===============
 * * *
 >##Methods
