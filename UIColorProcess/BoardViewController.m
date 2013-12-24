@@ -40,6 +40,8 @@
     UIImage *maskingImage = [UIImage imageNamed:@"btnB.png"];
     [btn setBackgroundImage:maskingImage forState:UIControlStateNormal];
     [board addSubview:btn];
+    
+    NSLog(@"distance = %f",[UIColorProcess findDistanceBetweenTwoColor:[UIColor redColor] secondColor:[UIColor blueColor]]);
 
 	// Do any additional setup after loading the view.
 }
