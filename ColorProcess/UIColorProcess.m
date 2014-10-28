@@ -17,7 +17,7 @@
 @implementation UIColorProcess
 
 
-+(CGFloat)findDistanceBetweenTwoColor:(UIColor *)first secondColor:(UIColor *)second //
++(CGFloat)findDistanceBetweenTwoColor:(UIColor *)first secondColor:(UIColor *)second 
 {
     CGFloat distance;
     CGFloat r1,g1,b1,a1,r2,g2,b2,a2;
@@ -29,6 +29,9 @@
     
     distance = sqrtf( powf(r1 - r2, 2) + powf(g1 - g2, 2) + powf(b1 - b2, 2) );
     
+    if (distance == 0) {
+        discance = sqrtf( powf(a1 - a2,2));
+    }
     return distance;
 }
 +(UIColor *)getSimilarColorFromColor:(UIColor *)sample coordinatesIndicator:(int)indicatorC
